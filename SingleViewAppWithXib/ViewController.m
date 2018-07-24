@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+#import "MyViewController.h"
+
+
 @interface ViewController ()
 
 @end
@@ -23,6 +26,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)buttonAction:(UIButton *)sender {
+    MyViewController *vc = [MyViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

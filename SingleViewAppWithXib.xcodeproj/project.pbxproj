@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2ECF4712CBB31C9EB01AE5 /* libPods-SingleViewAppWithXib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0020A9C7D162A1EABD136A /* libPods-SingleViewAppWithXib.a */; };
 		932BC70420BD1665008E1DEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC70320BD1665008E1DEB /* AppDelegate.m */; };
 		932BC70720BD1665008E1DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC70620BD1665008E1DEB /* ViewController.m */; };
 		932BC70A20BD1665008E1DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932BC70820BD1665008E1DEB /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		932BC71220BD1666008E1DEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC71120BD1666008E1DEB /* main.m */; };
 		932BC71C20BD1666008E1DEB /* SingleViewAppWithXibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC71B20BD1666008E1DEB /* SingleViewAppWithXibTests.m */; };
 		932BC72720BD1666008E1DEB /* SingleViewAppWithXibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC72620BD1666008E1DEB /* SingleViewAppWithXibUITests.m */; };
+		932BC73720BD1757008E1DEB /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC73520BD1757008E1DEB /* MyViewController.m */; };
+		932BC73820BD1757008E1DEB /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932BC73620BD1757008E1DEB /* MyViewController.xib */; };
+		932BC73C20BD183A008E1DEB /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 932BC73A20BD183A008E1DEB /* MyTableViewCell.m */; };
+		932BC73D20BD183A008E1DEB /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932BC73B20BD183A008E1DEB /* MyTableViewCell.xib */; };
+		93B8D1942101D10400482C41 /* MyasdfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B8D1922101D10400482C41 /* MyasdfViewController.m */; };
+		93B8D1952101D10400482C41 /* MyasdfViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B8D1932101D10400482C41 /* MyasdfViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36022FE8E62595F22BA48244 /* Pods-SingleViewAppWithXib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleViewAppWithXib.release.xcconfig"; path = "Pods/Target Support Files/Pods-SingleViewAppWithXib/Pods-SingleViewAppWithXib.release.xcconfig"; sourceTree = "<group>"; };
 		932BC6FF20BD1665008E1DEB /* SingleViewAppWithXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleViewAppWithXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		932BC70220BD1665008E1DEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		932BC70320BD1665008E1DEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,17 @@
 		932BC72220BD1666008E1DEB /* SingleViewAppWithXibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleViewAppWithXibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		932BC72620BD1666008E1DEB /* SingleViewAppWithXibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleViewAppWithXibUITests.m; sourceTree = "<group>"; };
 		932BC72820BD1666008E1DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932BC73420BD1757008E1DEB /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		932BC73520BD1757008E1DEB /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		932BC73620BD1757008E1DEB /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		932BC73920BD183A008E1DEB /* MyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		932BC73A20BD183A008E1DEB /* MyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		932BC73B20BD183A008E1DEB /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		93B8D1912101D10400482C41 /* MyasdfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyasdfViewController.h; sourceTree = "<group>"; };
+		93B8D1922101D10400482C41 /* MyasdfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyasdfViewController.m; sourceTree = "<group>"; };
+		93B8D1932101D10400482C41 /* MyasdfViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyasdfViewController.xib; sourceTree = "<group>"; };
+		AC0020A9C7D162A1EABD136A /* libPods-SingleViewAppWithXib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SingleViewAppWithXib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4C6888B959431094416E9E /* Pods-SingleViewAppWithXib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SingleViewAppWithXib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SingleViewAppWithXib/Pods-SingleViewAppWithXib.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2ECF4712CBB31C9EB01AE5 /* libPods-SingleViewAppWithXib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90C387FA80704219C0848B6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB4C6888B959431094416E9E /* Pods-SingleViewAppWithXib.debug.xcconfig */,
+				36022FE8E62595F22BA48244 /* Pods-SingleViewAppWithXib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		932BC6F620BD1665008E1DEB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +114,8 @@
 				932BC71A20BD1666008E1DEB /* SingleViewAppWithXibTests */,
 				932BC72520BD1666008E1DEB /* SingleViewAppWithXibUITests */,
 				932BC70020BD1665008E1DEB /* Products */,
+				90C387FA80704219C0848B6A /* Pods */,
+				E7DF63FE3A64B49F984FB254 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +137,15 @@
 				932BC70520BD1665008E1DEB /* ViewController.h */,
 				932BC70620BD1665008E1DEB /* ViewController.m */,
 				932BC70820BD1665008E1DEB /* Main.storyboard */,
+				932BC73420BD1757008E1DEB /* MyViewController.h */,
+				932BC73520BD1757008E1DEB /* MyViewController.m */,
+				932BC73620BD1757008E1DEB /* MyViewController.xib */,
+				932BC73920BD183A008E1DEB /* MyTableViewCell.h */,
+				932BC73A20BD183A008E1DEB /* MyTableViewCell.m */,
+				932BC73B20BD183A008E1DEB /* MyTableViewCell.xib */,
+				93B8D1912101D10400482C41 /* MyasdfViewController.h */,
+				93B8D1922101D10400482C41 /* MyasdfViewController.m */,
+				93B8D1932101D10400482C41 /* MyasdfViewController.xib */,
 				932BC70B20BD1666008E1DEB /* Assets.xcassets */,
 				932BC70D20BD1666008E1DEB /* LaunchScreen.storyboard */,
 				932BC71020BD1666008E1DEB /* Info.plist */,
@@ -132,6 +172,14 @@
 			path = SingleViewAppWithXibUITests;
 			sourceTree = "<group>";
 		};
+		E7DF63FE3A64B49F984FB254 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC0020A9C7D162A1EABD136A /* libPods-SingleViewAppWithXib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 932BC72B20BD1666008E1DEB /* Build configuration list for PBXNativeTarget "SingleViewAppWithXib" */;
 			buildPhases = (
+				61C1D05D4B2BC19244CAF386 /* [CP] Check Pods Manifest.lock */,
 				932BC6FB20BD1665008E1DEB /* Sources */,
 				932BC6FC20BD1665008E1DEB /* Frameworks */,
 				932BC6FD20BD1665008E1DEB /* Resources */,
+				7AF4E7F3A88DE3DDE212B6D2 /* [CP] Embed Pods Frameworks */,
+				1DC14B883002D75087000995 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,8 +286,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93B8D1952101D10400482C41 /* MyasdfViewController.xib in Resources */,
+				932BC73D20BD183A008E1DEB /* MyTableViewCell.xib in Resources */,
 				932BC70F20BD1666008E1DEB /* LaunchScreen.storyboard in Resources */,
 				932BC70C20BD1666008E1DEB /* Assets.xcassets in Resources */,
+				932BC73820BD1757008E1DEB /* MyViewController.xib in Resources */,
 				932BC70A20BD1665008E1DEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +311,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DC14B883002D75087000995 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleViewAppWithXib/Pods-SingleViewAppWithXib-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C1D05D4B2BC19244CAF386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SingleViewAppWithXib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF4E7F3A88DE3DDE212B6D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SingleViewAppWithXib/Pods-SingleViewAppWithXib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		932BC6FB20BD1665008E1DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,7 +369,10 @@
 			files = (
 				932BC70720BD1665008E1DEB /* ViewController.m in Sources */,
 				932BC71220BD1666008E1DEB /* main.m in Sources */,
+				932BC73720BD1757008E1DEB /* MyViewController.m in Sources */,
 				932BC70420BD1665008E1DEB /* AppDelegate.m in Sources */,
+				93B8D1942101D10400482C41 /* MyasdfViewController.m in Sources */,
+				932BC73C20BD183A008E1DEB /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +459,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Phoenix Lilita Information Technology Co., Ltd. (FQ5TL9S8G9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -409,7 +517,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Beijing Phoenix Lilita Information Technology Co., Ltd. (FQ5TL9S8G9)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -431,34 +539,41 @@
 		};
 		932BC72C20BD1666008E1DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4C6888B959431094416E9E /* Pods-SingleViewAppWithXib.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A7667NZ3Z2;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FQ5TL9S8G9;
 				INFOPLIST_FILE = SingleViewAppWithXib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fengjr.SingleViewAppWithXib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a02a83e5-bf02-4b16-bbde-00aa383bcddd";
+				PROVISIONING_PROFILE_SPECIFIER = distribution_main;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		932BC72D20BD1666008E1DEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36022FE8E62595F22BA48244 /* Pods-SingleViewAppWithXib.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = A7667NZ3Z2;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FQ5TL9S8G9;
 				INFOPLIST_FILE = SingleViewAppWithXib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fengjr.SingleViewAppWithXib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xxx.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = distribution_main;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
